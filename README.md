@@ -31,13 +31,17 @@ Replace `<coin name>` with the desired cryptocurrency name or symbol (e.g., `btc
 
 The API responds with a JSON array containing filtered news articles. Each article includes the following fields:
 
+```json
+[
   {
-    "title": "...",
-    "description": "...",
-    "link": "...",
-    "published": "...",
-    "imageUrl": "..."
+    "title": "Bitcoin Hits All-Time High",
+    "description": "A comprehensive analysis of Bitcoin's rise to an all-time high, including market trends and expert opinions.",
+    "link": "https://www.cointelegraph.com/news/bitcoin-hits-all-time-high",
+    "published": "2023-10-12T08:00:00Z",
+    "imageUrl": "https://www.cointelegraph.com/media/bitcoin-high.jpg"
   }
+]
+```
 
   ### Response Field Descriptions
 
